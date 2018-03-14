@@ -1,0 +1,55 @@
+html {
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.text-header {
+    font-weight: bold;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+p.lead {
+    padding-top: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    flex-flow: column;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    box-sizing: border-box !important;
+}
+
+.btn-primary {
+    background-color: #f86115;
+    border-color: #f86115;
+    transition: none;
+}
+
+.btn-primary:hover {
+    background-color: #ea5b3a;
+    border-color: #ea5b3a;
+}
+
+a:hover {
+    color: #ea5b3a;
+}
+
+a {
+    color: #f86115;
+}
